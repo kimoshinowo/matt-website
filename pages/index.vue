@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="wrap">
         <NavMasthead />
 
-        <div class="wrap">
+        <div>
             <h1>Hello, I'm Matt</h1>
             <h2>An R&D Scientist</h2>
 
