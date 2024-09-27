@@ -1,6 +1,6 @@
 <template>
     <div class="nav">
-        <span class="nav__title">Matthew Oshinowo</span>
+        <h1 class="nav__title">Matthew Oshinowo</h1>
 
         <ul class="nav__list">
             <li class="nav__item"><NuxtLink to="/">Home</NuxtLink></li>
