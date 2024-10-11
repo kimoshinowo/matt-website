@@ -1,29 +1,39 @@
 .nav {
-    border-bottom: 2px solid #7b7b7b;
+    background-color: white;
+    box-shadow: 1px 1px 5px $text-colour;
     color: $text-colour;
-    margin-bottom: 50px;
     padding-bottom: 10px;
+    position: relative;
     text-align: center;
     width: 100%;
+    z-index: 10;
 
     &__title {
-        margin: 20px 0;
+        border-bottom: 1px solid $light-grey;
+        margin: 0;
+        padding: 50px 0;
     }
 
     &__list {
         display: flex;
         justify-content: center;
+        margin-top: 10px;
         width: 100%;
     }
 
     &__item {
-        border-right: 1px solid $text-colour;
-        font-size: 1.5rem;
+        border-right: 1px solid $light-grey;
+        font-family: $secondary-font;
         font-weight: bold;
-        padding: 15px 20px;
+        letter-spacing: 0.1rem;
+        padding: 15px 60px;
 
         &:last-child {
             border-right: none;
+        }
+
+        & > * {
+            color: $text-colour;
         }
     }
 }
