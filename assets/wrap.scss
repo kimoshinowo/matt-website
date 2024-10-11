@@ -1,4 +1,29 @@
-.wrap {
-    margin: auto;
-    max-width: 1600px;
+.content-wrap {
+    margin: 100px auto;
+    max-width: 1400px;
+    position: relative;
+
+    &__box {
+        background-color: white;
+        border: 1px solid $light-grey;
+        box-shadow: 1px 1px 5px $text-colour;
+        margin: auto;
+        padding: 100px;
+    }
+
+    &--offset-top {
+        top: -200px;
+    }
+
+    &--flex {
+        display: flex;
+        gap: 100px;
+    }
+
+    &--grid {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 100px;
+    }
 }
