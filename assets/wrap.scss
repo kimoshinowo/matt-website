@@ -1,6 +1,6 @@
 .content-wrap {
     margin: 100px auto;
-    max-width: 1400px;
+    max-width: 1300px;
     position: relative;
 
     &__box {
@@ -23,7 +23,7 @@
     &--grid {
         align-items: center;
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 300px auto;
         gap: 50px;
 
         & > *:not(h2) {
