@@ -1,4 +1,17 @@
 .image {
-    max-height: 100%;
-    max-width: 100%;
+    background-color: white;
+
+    &--300w {
+        width: 300px;
+    }
+
+    &--shadow {
+        box-shadow: 1px 1px 5px $text-colour;
+    }
+
+    &__asset {
+        display: block;
+        max-height: 100%;
+        max-width: 100%;
+    }
 }
