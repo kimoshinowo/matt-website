@@ -9,7 +9,7 @@
     z-index: 10;
 
     &__title {
-        border-bottom: 1px solid $light-grey;
+        border-bottom: 1px solid $grey;
         margin: 0;
         padding: 50px 0;
     }
@@ -22,11 +22,11 @@
     }
 
     &__item {
-        border-right: 1px solid $light-grey;
+        border-right: 1px solid $grey;
+        display: flex;
         font-family: $secondary-font;
         font-weight: bold;
         letter-spacing: 0.1rem;
-        padding: 15px 60px;
 
         &:last-child {
             border-right: none;
@@ -34,6 +34,17 @@
 
         & > * {
             color: $text-colour;
+            padding: 15px 60px;
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: $light-grey;
+            }
+        }
+        
+        &--active {
+            background-color: $lighter-grey;
         }
     }
 }
