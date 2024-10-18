@@ -1,12 +1,14 @@
 .image {
-    background-color: white;
-
     &--300w {
         width: 300px;
     }
 
     &--shadow {
         box-shadow: 1px 1px 5px $text-colour;
+    }
+
+    &--centered {
+        align-self: center;
     }
 
     &__asset {
