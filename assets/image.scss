@@ -1,6 +1,7 @@
 .image {
     &--300w {
-        width: 300px;
+        max-width: 300px !important;
+        width: 100%;
     }
 
     &--shadow {

@@ -22,8 +22,11 @@ h3, h4, p:not(:last-child) {
 
 h1, h2, h3, h4 {
     font-family: $secondary-font;
-    letter-spacing: 0.1rem;
-    // font-weight: bold;
+    letter-spacing: auto;
+    
+    @media only screen and (min-width: 768px) {
+        letter-spacing: 0.1rem;
+    }
 }
 
 h1 {
