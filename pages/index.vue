@@ -4,7 +4,7 @@
 
         <div class="content-wrap content-wrap--bg-mountains content-wrap--flex">
             <div class="content-wrap__box content-wrap--flex">
-                <img src="~/assets/images/headshot.jpeg" class="image__asset image--centered">
+                <img src="~/assets/images/headshot.jpeg" alt="Photograph of Matthew" class="image__asset image--centered">
                 
                 <div>
                     <h1>Hello, I'm Matt</h1>
