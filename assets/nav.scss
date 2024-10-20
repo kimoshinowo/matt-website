@@ -2,7 +2,6 @@
     background-color: white;
     box-shadow: 1px 1px 5px $text-colour;
     color: $text-colour;
-    
     position: relative;
     text-align: center;
     width: 100%;
@@ -14,8 +13,13 @@
 
     &__title {
         border-bottom: 1px solid $grey;
+        letter-spacing: 0.1rem;
         margin: 0;
-        padding: 50px 0;
+        padding: 20px 0;
+
+        @media only screen and (min-width: 768px) {
+            padding: 50px 0;
+        }
     }
 
     &__list {
