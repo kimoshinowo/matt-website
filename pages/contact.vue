@@ -25,6 +25,7 @@
                     <label for="message">Message</label>
                     <textarea name="message"></textarea>
                     
+                    <input type="hidden" name="redirectTo" value="https://kimoshinowo.github.io/matt-website/contact">
                     <input type="submit" value="Email me" />
                 </form>
             </div>
