@@ -6,7 +6,7 @@
             <div class="content-wrap__box content-wrap__box--narrow content-wrap--margin-tb">
                 <h1>Contact me</h1>
 
-                <p>You can find me on linked in <a href="http://linkedin.com/in/matthewoshinowo/">here</a></p>
+                <p>You can find me on linked in <a href="http://linkedin.com/in/matthewoshinowo/" target="_blank">here</a></p>
 
                 <form action="https://api.staticforms.xyz/submit" method="post" class="form">
                     <p>Or fill in this form to email me directly:</p>                  
