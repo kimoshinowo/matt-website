@@ -1,8 +1,7 @@
 .form {
     margin-top: 50px;
 
-    & input[type="text"],
-    & input[type="email"],
+    & input:not([type="submit"]),
     & textarea {
         border: 1px solid $grey;
         border-radius: 10px;
