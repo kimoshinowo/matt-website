@@ -2,7 +2,7 @@
     <div>
         <NavMasthead />
 
-        <div class="content-wrap content-wrap--bg content-wrap--flex">
+        <div class="content-wrap content-wrap--bg-mountains content-wrap--flex">
             <div class="content-wrap__box content-wrap--flex">
                 <div>
                     <h1>Hello, I'm Matt</h1>
@@ -14,7 +14,6 @@
                 <img src="~/assets/images/headshot.jpeg" class="image__asset image--centered">
             </div>
         </div>
-        
     </div>
 </template>
 
