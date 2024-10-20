@@ -59,6 +59,11 @@
             flex-direction: row;
             gap: 100px;
         }
+
+        &-mobile-row {
+            flex-direction: row;
+            gap: 20px;
+        }
     }
 
     &--bg-mountains {
