@@ -6,7 +6,7 @@
             <div class="content-wrap__box content-wrap--flex">
                 <img src="~/assets/images/headshot.jpeg" alt="Photograph of Matthew" class="image__asset image--centered">
                 
-                <div class="image--centered">
+                <div class="centered">
                     <h1>Hello, I'm Matt</h1>
                     <h2>An R&D Scientist</h2>
 
