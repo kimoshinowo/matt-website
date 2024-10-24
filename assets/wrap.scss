@@ -1,5 +1,5 @@
 .content-wrap {
-    min-height: calc(100vh - 223px);
+    min-height: calc(100vh - 205px);
     position: relative;
 
     &__box {
@@ -10,8 +10,8 @@
         max-width: 1300px;
         padding: 25px;
 
-        @media only screen and (min-width: 768px) {
-            margin: 100px auto;
+        @media only screen and (min-width: 992px) {
+            margin: auto;
             padding: 100px;
         }
 
@@ -19,7 +19,7 @@
             max-width: 500px;
             padding: 25px;
 
-            @media only screen and (min-width: 768px) {
+            @media only screen and (min-width: 992px) {
                 padding: 50px;
                 width: 500px;
             }
@@ -31,7 +31,7 @@
             padding: 25px;
             text-align: center;
 
-            @media only screen and (min-width: 768px) {
+            @media only screen and (min-width: 992px) {
                 margin: 100px auto;
                 max-width: 1300px;
                 padding: 50px 100px;
@@ -40,7 +40,7 @@
     }
 
     &--margin-tb {
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: 992px) {
             margin-bottom: 100px;
             margin-top: 100px;
         }
@@ -55,7 +55,7 @@
         flex-direction: column;
         gap: 50px;
 
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: 992px) {
             flex-direction: row;
             gap: 100px;
         }
