@@ -12,7 +12,11 @@
 
         @media only screen and (min-width: 992px) {
             margin: auto;
-            padding: 100px;
+            padding: 50px;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            padding: 80px;
         }
 
         &--narrow {
