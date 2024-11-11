@@ -8,7 +8,10 @@
             <div class="content-wrap__box--grey">
                 <h1>About me</h1>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>I'm currently working as a Development Scientist in the Advanced Materials department of a company called iGii in Stirling, Scotland. At iGii, I'm responsible for the innovation and development of electrolytes and substrates for commercial graphene-based energy storage devices. 
+
+            <!--I'm fascinated and driven by the develpoment of sustainable technologies which will help us to achieve the exciting future that lies ahead without the burden of environmental destruction.-->
+</p>
             </div>
 
             <div class="content-wrap--grid">
