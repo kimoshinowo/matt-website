@@ -1,0 +1,106 @@
+.content-wrap {
+    min-height: calc(100vh - 205px);
+    position: relative;
+
+    &__box {
+        background-color: white;
+        border: 1px solid $grey;
+        box-shadow: 1px 1px 5px $text-colour;
+        margin: 15px;
+        max-width: 1300px;
+        padding: 25px;
+
+        @media only screen and (min-width: 992px) {
+            margin: auto;
+            padding: 50px;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            padding: 80px;
+        }
+
+        &--narrow {
+            max-width: 500px;
+            padding: 25px;
+
+            @media only screen and (min-width: 992px) {
+                padding: 50px;
+                width: 500px;
+            }
+        }
+
+        &--grey {
+            background-color: $light-grey;
+            margin: 25px;
+            padding: 25px;
+            text-align: center;
+
+            @media only screen and (min-width: 992px) {
+                margin: 100px auto;
+                max-width: 1300px;
+                padding: 50px 100px;
+            }
+        }
+    }
+
+    &--margin-tb {
+        @media only screen and (min-width: 992px) {
+            margin-bottom: 100px;
+            margin-top: 100px;
+        }
+    }
+
+    &--offset-top {
+        top: -300px;
+    }
+
+    &--flex {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        @media only screen and (min-width: 992px) {
+            flex-direction: row;
+            gap: 100px;
+        }
+
+        &-mobile-row {
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+        }
+    }
+
+    &--bg-mountains {
+        background-image: url('~@/assets/images/sunset.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    &--bg-matt {
+        background-image: url('~@/assets/images/matt-on-mountain.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    &--grid {
+        align-items: center;
+        background-color: white;
+        display: grid;
+        gap: 25px;
+        grid-template-columns: 1fr;
+        padding: 25px;
+
+        @media only screen and (min-width: 768px) {
+            background-color: transparent;
+            gap: 50px;
+            grid-template-columns: 300px auto;
+            margin: 100px auto;
+            max-width: 1300px;
+        }
+
+        & > *:not(h2) {
+            justify-self: center;
+        }
+    }
+}

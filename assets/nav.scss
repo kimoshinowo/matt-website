@@ -1,0 +1,70 @@
+.nav {
+    background-color: white;
+    box-shadow: 1px 1px 5px $text-colour;
+    color: $text-colour;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+
+    @media only screen and (min-width: 768px) {
+        padding-bottom: 10px;
+    }
+
+    &__title {
+        border-bottom: 1px solid $grey;
+        letter-spacing: 0.1rem;
+        margin: 0;
+        padding: 20px 0;
+
+        @media only screen and (min-width: 768px) {
+            padding: 50px 0;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        @media only screen and (min-width: 768px) {
+            justify-content: center;
+            margin-top: 10px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        font-family: $secondary-font;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+
+        @media only screen and (min-width: 768px) {
+            border-right: 1px solid $grey;
+        }
+
+        &:last-child {
+            border-right: none;
+        }
+
+        & > * {
+            color: $text-colour;
+            padding: 15px 10px;
+            text-decoration: none;
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: $light-grey;
+            }
+
+            @media only screen and (min-width: 768px) {
+                padding: 15px 60px;
+            }
+        }
+        
+        &--active {
+            background-color: $lighter-grey;
+        }
+    }
+}

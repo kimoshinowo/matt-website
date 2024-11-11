@@ -1,0 +1,25 @@
+.image {
+    &--300w {
+        max-width: 300px !important;
+        width: 100%;
+    }
+
+    &--icon {
+        max-width: 60px;
+        width: auto;
+    }
+
+    &--shadow {
+        box-shadow: 1px 1px 5px $text-colour;
+    }
+
+    &--centered {
+        align-self: center;
+    }
+
+    &__asset {
+        display: block;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+.colour-block {
+    background-color: $green;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 25%;
+    z-index: -10;
+
+    &--mobile {
+        @media only screen and (max-width: 768px) {
+            background-color: $green;
+            left: -25px;
+            padding: 10px 25px;
+            position: relative;
+            width: calc(100% + 50px);
+        }
+    }
+}
