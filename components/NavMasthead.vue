@@ -1,6 +1,9 @@
 <template>
     <div class="nav">
-        <h1 class="nav__title">Matthew Oshinowo</h1>
+        <h1 class="nav__title">Matthew Oshinowo<br>
+            <span class="nav__subtitle">R&D Scientist || Passionate Outdoorist || Technology Enthusiast</span>
+        </h1>
+        
 
         <ul class="nav__list">
             <li class="nav__item"><NuxtLink to="/" exactActiveClass="nav__item--active">Home</NuxtLink></li>
